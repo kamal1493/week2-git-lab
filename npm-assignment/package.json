@@ -1,0 +1,20 @@
+{
+  "name": "npm-assignment",
+  "version": "1.0.0",
+  "description": "My Node.js and npm assignment",
+  "license": "ISC",
+  "author": "Kamal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
